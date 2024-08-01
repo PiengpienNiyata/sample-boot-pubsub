@@ -6,6 +6,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReceiverApplication",
+            "request": "launch",
+            "mainClass": "lab.microservice.hello.ReceiverApplication",
+            "projectName": "sample-microservice-receiver",
+             "args": "--server.port=8200"
+        },
+        {
+            "type": "java",
             "name": "Launch EurekaNamingServer",
             "request": "launch",
             "mainClass": "lab.microservice.namingserver.SpringBootMicroserviceEurekaNamingServerApplication",
@@ -19,6 +27,5 @@
             "projectName": "sample-microservice-hello",
             "args": "--server.port=8100"
         }
-
     ]
 }

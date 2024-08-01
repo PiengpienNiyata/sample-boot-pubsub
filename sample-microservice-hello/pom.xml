@@ -10,7 +10,7 @@
 		<relativePath />
 	</parent>
 	<groupId>th.ac.mfu</groupId>
-	<artifactId>sample-microservice-hello</artifactId>
+	<artifactId>sample-microservice-reciever</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Service to saying hello</description>
 	<properties>
